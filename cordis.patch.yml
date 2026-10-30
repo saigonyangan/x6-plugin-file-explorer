@@ -1,0 +1,10 @@
+# X6 file explorer bundle patch.
+#
+# Host: ExplorerFsService (Typert `explorerFs` RPC).
+# Client: discovered via `dsh.client` + exports["./client"].
+- insert:
+    - id: x6-file-explorer
+      name: '@x6_ai/x6-plugin-file-explorer'
+      config:
+        root: !!js process.cwd()
+        openLinksInEditor: false

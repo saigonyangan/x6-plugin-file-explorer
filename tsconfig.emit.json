@@ -1,0 +1,20 @@
+{
+  "extends": "../../../../engine/tsconfig.base.client.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "lib/types",
+    "types": [
+      "client-build-environment",
+      "node"
+    ],
+    "skipLibCheck": true,
+    "noEmitOnError": false,
+    "composite": false,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": false
+  },
+  "include": [
+    "src"
+  ]
+}
