@@ -1,7 +1,7 @@
 {
   "name": "@x6_ai/x6-plugin-file-explorer",
   "description": "X6 workspace file explorer: sidebar tree and center-column multi-tab editor",
-  "version": "6.1.1",
+  "version": "1.2.0",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/types/index.d.ts",

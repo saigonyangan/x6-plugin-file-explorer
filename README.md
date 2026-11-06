@@ -9,7 +9,7 @@
 ## 安装
 
 ```bash
-dsh plugin --profile web add github:saigonyangan/x6-plugin-file-explorer#v6.1.1
+dsh plugin --profile web add github:saigonyangan/x6-plugin-file-explorer#v1.2.0
 ```
 
 安装后请**完全重启** `dsh web`（或 Desktop Host），并用打印的 `?token=` 地址打开。
