@@ -9,7 +9,7 @@ Repo: [GitHub](https://github.com/saigonyangan/x6-plugin-file-explorer)
 ## Install
 
 ```bash
-dsh plugin --profile web add github:saigonyangan/x6-plugin-file-explorer#v6.0.0
+dsh plugin --profile web add github:saigonyangan/x6-plugin-file-explorer#v6.1.0
 ```
 
 Fully restart `dsh web` (or Desktop Host) after install, then open the printed `?token=` URL.
