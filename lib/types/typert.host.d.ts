@@ -5,7 +5,6 @@
  * Must be self-contained: the loader imports this file alone from the packed
  * package (package.json `files` may omit other lib/types/*.js modules).
  */
-import { z } from 'zod';
 /** Host Typert contribution consumed by typert-loader. */
 export declare const TYPERT: {
     package: string;
@@ -31,13 +30,13 @@ export declare const TYPERT: {
             codec: {
                 mode: "strict";
                 typeSymbol: string;
-                create: () => z.ZodString;
+                create: () => any;
             };
         }[];
         result: {
             mode: "strict";
             typeSymbol: string;
-            create: () => z.ZodType<unknown, unknown, z.core.$ZodTypeInternals<unknown, unknown>>;
+            create: () => z.ZodType;
         };
         sourceLocation: {
             file: string;
